@@ -16,7 +16,7 @@ const Projects = () => {
         'Teste seus conhecimentos sobre as minhas séries favoritas! ',
       image: capa,
       technologies: ['React', 'typescript', 'Tailwind CSS'],
-      url: 'https://www.google.com/',
+      url: 'https://ericdesenvolvedor.com/',
       category: 'quiz',
     },
     {

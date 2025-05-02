@@ -39,7 +39,7 @@ const About = () => {
       company: 'Desenvolvedor Front-End | ShopperUm (Remoto)',
       period: '2021 - 2023',
       description:
-        'Desenvolvimento de interfaces dinâmicas e responsivas usando React e Tailwind, melhorando significativamente a experiência do usuário final.',
+        'Desenvolvimento de interfaces dinâmicas e responsivas usando React e Tailwind, melhorando significativamente a experiência do usuário final e Desenvolvimento de interfaces dinâmicas e responsivas usando React e JavaScript, melhorando significativamente a experiência do usuário final e 	Implementação de Design Responsivo utilizando CSS3, SASS/SCSS.',
     },
     {
       title: 'Desenvolvedor Full Stack',
@@ -82,7 +82,7 @@ const About = () => {
               Desenvolvedor Web
             </h1>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Sou um Desenvolvedor Web-FrontEnd Sou especialista em React.js,
+              Sou um Desenvolvedor-Web Front-End com Experiência em React.js,
               typescript, e Tailwind CSS,
             </p>
 
