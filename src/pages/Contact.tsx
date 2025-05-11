@@ -1,4 +1,5 @@
 import { Send, Mail, Phone, MapPin, Linkedin } from 'lucide-react';
+import Curriculo from '../components/curriculo';
 
 const Contact = () => {
   const contactInfo = [

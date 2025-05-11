@@ -1,5 +1,6 @@
 import { useRef, useEffect } from 'react';
 import { Calendar, Award, BookOpen } from 'lucide-react';
+import Curriculo from '../components/curriculo';
 
 const About = () => {
   const bioRef = useRef<HTMLDivElement>(null);
@@ -39,7 +40,7 @@ const About = () => {
       company: 'Desenvolvedor Front-End | ShopperUm (Remoto)',
       period: '2021 - 2023',
       description:
-        'Desenvolvimento de interfaces dinâmicas e responsivas usando React e Tailwind, melhorando significativamente a experiência do usuário final e Desenvolvimento de interfaces dinâmicas e responsivas usando React e JavaScript, melhorando significativamente a experiência do usuário final e 	Implementação de Design Responsivo utilizando CSS3, SASS/SCSS.',
+        'Desenvolvimento de interfaces dinâmicas e responsivas usando React e Tailwind, melhorando significativamente a experiência do usuário final e Desenvolvimento de interfaces dinâmicas e responsivas usando React e JavaScript, melhorando significativamente a experiência do usuário final e 	Implementação de Design Responsivo utilizando CSS, SASS.',
     },
     {
       title: 'Desenvolvedor Full Stack',
@@ -53,7 +54,7 @@ const About = () => {
       company: 'Habilidades',
       period: '',
       description:
-        'Linguagens e Frameworks: JavaScript (ES6+), React.js, TypeScript, HTML5, CSS3, Bibliotecas e Ferramentas: Redux, React Router, Git, UI/UX Design: Figma, Lógica de Programação: Capacidade de desenvolver soluções eficientes e lógicas, incluindo resolução deproblemas algoritmos .',
+        'Linguagens e Frameworks: JavaScript (ES6+), React.js, TypeScript, HTML5, CSS, Bibliotecas e Ferramentas: Redux, React Router, Git, UI/UX Design: Figma, Lógica de Programação: Capacidade de desenvolver soluções eficientes e lógicas.',
     },
   ];
 
@@ -82,17 +83,18 @@ const About = () => {
               Desenvolvedor Web
             </h1>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Sou um Desenvolvedor-Web Front-End com Experiência em React.js,
-              typescript, e Tailwind CSS,
+              Sou um Desenvolvedor Front-End com Experiência em React.js,
+              typescript, e Tailwind CSS, SASS
             </p>
 
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div className="p-4 bg-gray-100 dark:bg-gray-800 rounded-lg">
                 <h3 className="font-semibold mb-2">Front-end</h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  React, TypeScript, Tailwind CSS
+                  React, TypeScript, Tailwind CSS, SASS.
                 </p>
               </div>
+              <Curriculo />
             </div>
           </div>
         </div>
