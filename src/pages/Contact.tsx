@@ -13,13 +13,13 @@ const Contact = () => {
       icon: Phone,
       label: 'WhatsApp',
       value: 'Clique para conversar no WhatsApp',
-      link: 'https://wa.me/5511977485165', // sem parênteses ou espaços
+      link: 'https://wa.me/5511977485165',
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
       value: 'Visite meu perfil no LinkedIn',
-      link: 'https://www.linkedin.com/in/eric-patrick-232733218/',
+      link: 'https://www.linkedin.com/in/ericpatrick-dev/',
     },
     {
       icon: MapPin,
