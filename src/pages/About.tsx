@@ -94,7 +94,7 @@ const About = () => {
                   React, TypeScript, Tailwind CSS, SASS.
                 </p>
               </div>
-              <Curriculo />
+              {/*}  <Curriculo />{*/}
             </div>
           </div>
         </div>

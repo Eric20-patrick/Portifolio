@@ -11,7 +11,7 @@ const DownloadCurriculo: React.FC = () => {
       const blob = await response.blob();
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
-      a.href = 'www.ericdesenvolvedor.com/Curriculo.pdf';
+      a.href = url;
       a.download = 'Curriculo.Eric.pdf';
       document.body.appendChild(a);
       a.click();
