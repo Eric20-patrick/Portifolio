@@ -4,7 +4,7 @@ import React from 'react';
 const DownloadCurriculo: React.FC = () => {
   const handleDownload = async () => {
     try {
-      const response = await fetch('');
+      const response = await fetch('../../public/curriculo.pdf');
       if (!response.ok) {
         throw new Error('Arquivo não encontrado');
       }
