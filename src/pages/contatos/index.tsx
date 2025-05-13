@@ -19,7 +19,7 @@ const Index = () => {
       icon: Github,
       label: 'Github',
       value: 'Acesse meu GitHub',
-      // link: 'https://github.com/Eric20-patrick',
+      link: 'https://github.com/Eric20-patrick',
     },
     {
       icon: Linkedin,

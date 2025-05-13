@@ -7,12 +7,12 @@ const Footer = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      url: 'https://www.linkedin.com/in/eric-patrick-232733218/',
+      url: 'https://www.linkedin.com/in/ericpatrick-dev/',
     },
     {
       name: 'Github',
       icon: Github,
-      // url: 'https://github.com/Eric20-patrick',
+      url: 'https://github.com/Eric20-patrick',
     },
     {
       name: 'Email',
