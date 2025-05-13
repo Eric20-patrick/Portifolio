@@ -1,9 +1,10 @@
 import React from 'react';
+import Curriculo from '../../public/Curriculo.pdf';
 
 const DownloadCurriculo: React.FC = () => {
   const handleDownload = async () => {
     try {
-      const response = await fetch('/curriculo.pdf'); // Corrigido o caminho
+      const response = await fetch(Curriculo);
       if (!response.ok) {
         throw new Error('Arquivo não encontrado');
       }
@@ -11,7 +12,7 @@ const DownloadCurriculo: React.FC = () => {
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'Curriculo.Eric.pdf';
+      a.download = 'Curriculo_Eric.pdf';
       document.body.appendChild(a);
       a.click();
       a.remove();
