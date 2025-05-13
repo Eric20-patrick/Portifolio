@@ -1,4 +1,4 @@
-import { Send, Mail, Phone, MapPin, Linkedin } from 'lucide-react';
+import { Send, Mail, Phone, MapPin, Linkedin, Github } from 'lucide-react';
 import Curriculo from '../../components/curriculo';
 
 const Index = () => {
@@ -14,6 +14,12 @@ const Index = () => {
       label: 'WhatsApp',
       value: 'Clique para conversar no WhatsApp',
       link: 'https://wa.me/5511977485165',
+    },
+    {
+      icon: Github,
+      label: 'Github',
+      value: 'Acesse meu GitHub',
+      // link: 'https://github.com/Eric20-patrick',
     },
     {
       icon: Linkedin,

@@ -19,6 +19,7 @@ const Index = () => {
       url: 'https://ericdesenvolvedor.com/',
       category: 'quiz',
     },
+
     {
       id: 2,
       title: 'Designer',
