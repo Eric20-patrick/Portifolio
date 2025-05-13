@@ -1,10 +1,9 @@
-import { error } from 'console';
 import React from 'react';
 
 const DownloadCurriculo: React.FC = () => {
   const handleDownload = async () => {
     try {
-      const response = await fetch('../../public/curriculo.pdf');
+      const response = await fetch('/curriculo.pdf'); // Corrigido o caminho
       if (!response.ok) {
         throw new Error('Arquivo não encontrado');
       }
@@ -21,10 +20,11 @@ const DownloadCurriculo: React.FC = () => {
       console.log('Erro ao baixar:', error);
     }
   };
+
   return (
-    <div className="p-4  bg-gray-100 dark:bg-gray-800 flex justify-center items-center rounded-lg">
+    <div className="p-4 bg-gray-100 dark:bg-gray-800 flex justify-center items-center rounded-lg">
       <button
-        className="p-4 bg-gray-00  rounded-lg hover:bg-blue-600 rounded-sm"
+        className="p-4 bg-gray-00 rounded-lg hover:bg-blue-600 rounded-sm"
         onClick={handleDownload}
       >
         Baixar Currículo
