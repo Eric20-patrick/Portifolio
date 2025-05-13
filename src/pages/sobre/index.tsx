@@ -1,6 +1,6 @@
 import { useRef, useEffect } from 'react';
 import { Calendar, Award, BookOpen } from 'lucide-react';
-import Curriculo from '../components/curriculo';
+import Curriculo from '../../components/curriculo';
 
 const About = () => {
   const bioRef = useRef<HTMLDivElement>(null);

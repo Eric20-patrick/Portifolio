@@ -1,7 +1,7 @@
 import { Send, Mail, Phone, MapPin, Linkedin } from 'lucide-react';
-import Curriculo from '../components/curriculo';
+import Curriculo from '../../components/curriculo';
 
-const Contact = () => {
+const Index = () => {
   const contactInfo = [
     {
       icon: Mail,
@@ -76,4 +76,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Index;

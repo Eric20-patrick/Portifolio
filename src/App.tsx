@@ -6,11 +6,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from '@/contexts/ThemeContext';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import Index from './pages/Index';
-import Projects from './pages/Projects';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import NotFound from './pages/NotFound';
+import Index from './pages/home/Index';
+import Projetos from './pages/projetos/index';
+import Sobre from './pages/sobre/index';
+import Contatos from './pages/contatos/index';
+import NotFound from './pages/notFound/index';
 
 const queryClient = new QueryClient();
 
@@ -26,9 +26,9 @@ const App = () => (
             <main className="flex-grow">
               <Routes>
                 <Route path="/" element={<Index />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/contact" element={<Contact />} />
+                <Route path="/projetoss" element={<Projetos />} />
+                <Route path="/sobre" element={<Sobre />} />
+                <Route path="/contatos" element={<Contatos />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </main>

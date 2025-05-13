@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from 'react';
 import ProjectCard, { ProjectType } from '@/components/ProjectCard';
-import capa from '../fotos/teste.png';
-import capam from '../fotos/capam.png';
+import capa from '../../fotos/teste.png';
+import capam from '../../fotos/capam.png';
 
-const Projects = () => {
+const Index = () => {
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [filteredProjects, setFilteredProjects] = useState<ProjectType[]>([]);
   const projectsRef = useRef<HTMLDivElement>(null);
@@ -112,4 +112,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Index;
