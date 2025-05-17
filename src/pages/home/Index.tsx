@@ -56,7 +56,7 @@ const Index = () => {
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-6">
               <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                Eric4 Patrick
+                Eric Patrick
               </span>
               <br />
               Desenvolvedor Web
