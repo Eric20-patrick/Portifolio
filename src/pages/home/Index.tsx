@@ -1,5 +1,30 @@
 import { useRef, useEffect } from 'react';
-import { ArrowRight, Code, Layout } from 'lucide-react';
+import {
+  AlertTriangle,
+  ArrowRight,
+  Bug,
+  ClipboardCheck,
+  Cloud,
+  Code,
+  Code2Icon,
+  Cpu,
+  Database,
+  GitBranch,
+  Layers,
+  Layout,
+  Monitor,
+  MonitorCheck,
+  MonitorCog,
+  MonitorCogIcon,
+  MonitorDotIcon,
+  MonitorOff,
+  MonitorPause,
+  MonitorX,
+  Server,
+  Settings,
+  Terminal,
+  TerminalIcon,
+} from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Index = () => {
@@ -39,13 +64,38 @@ const Index = () => {
         'Crie interfaces de usuário interativas e responsivas com React.js, TypeScript e Tailwind CSS.',
       technologies: ['React.js', 'TypeScript', 'tailwind'],
     },
-
+    {
+      icon: MonitorCog,
+      title: 'Analista de Suporte Técnico',
+      description:
+        'Diagnóstico e resolução de problemas, como recuperação de senhas de usuários, sem a necessidade deformatação do sistema, mantendo a integridade e a continuidade do trabalho,Suporte técnico em sistemas operacionais Windows, incluindo instalação, configuração e manutenção de software e hardware.',
+      technologies: [
+        'TeamViewer',
+        'AnyDesk',
+        'Zoho Assist',
+        'Jira Service Desk',
+        'PowerShell',
+      ],
+    },
     {
       icon: Layout,
       title: 'UI/UX Design',
       description:
         'Projetando experiências de usuário bonitas e intuitivas com estruturas modernas.',
       technologies: ['Figma'],
+    },
+    {
+      icon: ClipboardCheck,
+      title: 'Habilidades Técnicas',
+      description:
+        'Suporte Técnico: Conhecimento avançado em Windows, Pacote Office, manutenção de hardware e software, eresolução de problemas em sistemas operacionais e aplicativos.Linguagens e Frameworks: JavaScript (ES6+), React.js, TypeScript, Node.js, HTML5, CSS3, Redux, React Router,SASS/SCSS senhas, suporte remoto, e solução de conflitos com ferramentas de software.',
+      technologies: [
+        'React.js',
+        'TypeScript',
+        'Node.js',
+        'TeamViewer',
+        'AnyDesk',
+      ],
     },
   ];
 

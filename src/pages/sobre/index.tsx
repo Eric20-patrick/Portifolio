@@ -89,9 +89,16 @@ const About = () => {
 
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div className="p-4 bg-gray-100 dark:bg-gray-800 rounded-lg">
-                <h3 className="font-semibold mb-2">Front-end</h3>
+                <h1 className="font-bold mb-2">Front-end</h1>
                 <p className="text-gray-600 dark:text-gray-300">
                   React, TypeScript, Tailwind CSS, SASS.
+                </p>
+              </div>
+              <div className="p-4 bg-gray-100 dark:bg-gray-800 rounded-lg">
+                <h1 className="font-bold mb-2">Analista de Suporte Técnico</h1>
+                <p className="text-gray-600 dark:text-gray-300">
+                  Conhecimento avançado em Windows, Pacote Office, manutenção de
+                  hardware e software
                 </p>
               </div>
               <Curriculo />
