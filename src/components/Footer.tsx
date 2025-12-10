@@ -10,11 +10,6 @@ const Footer = () => {
       url: 'https://www.linkedin.com/in/ericpatrick-dev/',
     },
     {
-      name: 'Github',
-      icon: Github,
-      url: 'https://github.com/Eric20-patrick',
-    },
-    {
       name: 'Email',
       icon: Mail,
       url: 'mailto:eric.gomes205@gmail.com',

@@ -16,12 +16,6 @@ const Index = () => {
       link: 'https://wa.me/5511977485165',
     },
     {
-      icon: Github,
-      label: 'Github',
-      value: 'Acesse meu GitHub',
-      link: 'https://github.com/Eric20-patrick',
-    },
-    {
       icon: Linkedin,
       label: 'LinkedIn',
       value: 'Visite meu perfil no LinkedIn',
